@@ -9,7 +9,7 @@ def getdata(url):
     return r.text
 
 
-jsonData = getdata("http://api.weatherapi.com/v1/current.json?key=e2e35c99db2d45ad9be150025230112&q=Bangalore&aqi=no")
+jsonData = getdata("YOUR-API-KEY")
 
 data = json.loads(jsonData)
 
